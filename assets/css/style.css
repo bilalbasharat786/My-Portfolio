@@ -1902,3 +1902,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   transform: translate(-50%, -50%);
   transition: background 0.2s;
 }
+/* Mobile screens par dot hide karne ke liye */
+@media (pointer: coarse) {
+  .cursor-dot {
+    display: none !important;
+  }
+}
