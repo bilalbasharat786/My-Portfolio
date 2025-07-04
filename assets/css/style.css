@@ -532,20 +532,20 @@ main {
   background: var(--border-gradient-onyx);
   padding: 20px;
   border-radius: 14px;
-  /* border-color: #FFD600; */
-  border: 2px  solid hsl(45, 100%, 72%);
   box-shadow: var(--shadow-2);
   z-index: 1;
 }
 
-/* .service-item::before {
+.service-item::before {
   content: "";
   position: absolute;
   inset: 1px;
   background: var(--bg-gradient-jet);
   border-radius: inherit;
   z-index: -1;
-} */
+}
+
+
 
 .service-icon-box { margin-bottom: 10px; }
 

@@ -168,3 +168,11 @@ window.addEventListener('mousemove', function(e) {
   cursorDot.style.left = e.clientX + 'px';
   cursorDot.style.top = e.clientY + 'px';
 });
+
+// Touch support for mobile
+window.addEventListener('touchmove', function(e) {
+  if (e.touches && e.touches.length > 0) {
+    cursorDot.style.left = e.touches[0].clientX + 'px';
+    cursorDot.style.top = e.touches[0].clientY + 'px';
+  }
+}, { passive: true });
